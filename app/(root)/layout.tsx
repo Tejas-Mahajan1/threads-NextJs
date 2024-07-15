@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "UnityNet",
   description: "A Next.js 13 Meta Threads application",
   icons: {
-    icon: "/logo.svg",
+    icon: "/assets/logo.png",
   },
 };
 

@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
   </div>
 
-  <h3 align="center">A full stack Threads Clone :- NetWeave </h3>
+  <h2 align="center">A upgraded full stack Threads Clone :- NetWeave </h2>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>

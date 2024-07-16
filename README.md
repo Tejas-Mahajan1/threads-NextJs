@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
   </div>
 
-  <h3 align="center">A full stack Threads Clone :- UnityNet </h3>
+  <h2 align="center">A upgraded full stack social app :- NetWeave </h2>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -25,7 +25,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Build a full stack Threads clone using Next.js 14+ with a redesigned look transformed from a Figma design, user interaction to community management, technical implementation, and various features, including nested deep comments, notifications, real-time-search, and more.  
+Build a full stack social app using Next.js 14+ with a redesigned look transformed from a Figma design, user interaction to community management, technical implementation, and various features, including nested deep comments, notifications, real-time-search, and more.  
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 

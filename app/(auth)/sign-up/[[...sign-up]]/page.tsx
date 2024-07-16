@@ -1,5 +1,9 @@
 import { SignUp } from "@clerk/nextjs";
 
 export default function Page() {
-  return <SignUp />;
+  return (
+    <center className="my-48">
+      <SignUp />;
+    </center>
+  )
 }

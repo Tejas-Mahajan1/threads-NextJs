@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
   </div>
 
-  <h2 align="center">A upgraded full stack social app :- NetWeave </h2>
+  <h2 align="center"> NetWeave: An Enhanced Full-Stack Social Platform </h2>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>

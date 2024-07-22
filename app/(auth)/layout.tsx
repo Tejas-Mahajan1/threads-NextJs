@@ -28,7 +28,7 @@ export default function RootLayout({
       }}
     >
       <html lang='en'>
-        <body className={`${inter.className} bg-dark-1 bg-image`}>{children}</body>
+        <body className={`${inter.className} bg-dark-1 bg-image`} style={{overflow:"hidden"}}>{children}</body>
       </html>
     </ClerkProvider>
   );

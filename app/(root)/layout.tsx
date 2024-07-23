@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "NetWeave",
   description: "A Next.js 13 Meta Threads application",
   icons: {
-    icon: "/assets/logo.png",
+    icon: "/logo.svg",
   },
 };
 

@@ -162,6 +162,4 @@
 
 .bg-image {
   background-image: url('/bg-3.jpg'); 
-  background-size: cover; 
-  background-position: center;
 }

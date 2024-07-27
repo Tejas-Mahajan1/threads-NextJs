@@ -161,5 +161,7 @@
 }
 
 .bg-image {
-  background-image: url('/bg-3.jpg'); 
+  background-image: url('/bg-1.png'); 
+  background-size: cover; 
+  /* background-position: center; */
 }

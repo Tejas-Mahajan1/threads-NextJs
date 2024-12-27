@@ -114,13 +114,15 @@ function ThreadCard({
           </div>
         </div>
 
-        <DeleteThread
-          threadId={JSON.stringify(id)}
-          currentUserId={currentUserId}
-          authorId={author.id}
-          parentId={parentId}
-          isComment={isComment}
-        />
+        {currentUserId && (
+          <DeleteThread
+            threadId={JSON.stringify(id)}
+            currentUserId={currentUserId}
+            authorId={author.id}
+            parentId={parentId}
+            isComment={isComment}
+          />
+        )}
       </div>
 
       {!isComment && comments.length > 0 && (
@@ -166,5 +168,4 @@ function ThreadCard({
     </article>
   );
 }
-
 export default ThreadCard;

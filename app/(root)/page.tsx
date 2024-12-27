@@ -13,10 +13,9 @@ async function Home({
   searchParams: { [key: string]: string | undefined };
 }) {
   const user = await currentUser();
-  if (!user) return null;
 
-  const userInfo = await fetchUser(user.id);
-  if (!userInfo?.onboarded) redirect("/onboarding");
+  const userInfo = user ? await fetchUser(user.id) : null;
+  if (userInfo && !userInfo.onboarded) redirect("/onboarding");
 
   const result = await fetchPosts(
     searchParams.page ? +searchParams.page : 1,
@@ -36,7 +35,7 @@ async function Home({
               <ThreadCard
                 key={post._id}
                 id={post._id}
-                currentUserId={user.id}
+                currentUserId={user ? user.id : ""}
                 parentId={post.parentId}
                 content={post.text}
                 author={post.author}
